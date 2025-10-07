@@ -2160,6 +2160,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4643051114624266171, guid: 3fc870a6841f88246add434810aee82e, type: 3}
   m_PrefabInstance: {fileID: 1243643798}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1291062462 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5842472138686375342, guid: b70e759dd1b06354eb41a358ba244fcb, type: 3}
+  m_PrefabInstance: {fileID: 4354762446972095902}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1291062466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291062462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a07f02ecb655464180389b69a93ff8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KnightController
+  speed: 3
 --- !u!1001 &1395178826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3393,7 +3411,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5842472138686375342, guid: b70e759dd1b06354eb41a358ba244fcb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1291062466}
   m_SourcePrefab: {fileID: 100100000, guid: b70e759dd1b06354eb41a358ba244fcb, type: 3}
 --- !u!1001 &8128876137175539219
 PrefabInstance:
